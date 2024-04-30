@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ***body bg*** */
+body {
+    background-image: url(https://img.freepik.com/free-photo/majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai_188544-15662.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1714262400&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ***h1 content** */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    width: auto;
+}
+
+h1 {
+    color: rgb(236, 229, 6);
+    border-bottom: 3px;
+    font-family: "Micro 5 Charted", sans-serif;
+    font-size: 3.125rem;
+}
+
+ul li {
+    color: darksalmon;
+}
+
+.buzz {}
+
+.fizzbuzz {
+    background: red;
+}

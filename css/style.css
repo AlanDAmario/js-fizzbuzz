@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
 /* ***body bg*** */
 body {
-    background-image: url(https://img.freepik.com/free-photo/majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai_188544-15662.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1714262400&semt=ais);
-    background-repeat: no-repeat;
+    background-color: black;
     background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
 }
 
 /* ***h1 content** */
@@ -27,14 +33,44 @@ h1 {
     border-bottom: 3px;
     font-family: "Micro 5 Charted", sans-serif;
     font-size: 3.125rem;
+    margin: 4rem 6.25rem;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
 }
 
 ul li {
-    color: darksalmon;
+    color: rgb(4, 4, 4);
+    list-style-type: none;
 }
 
-.buzz {}
+li {
+    color: rgb(10, 0, 0);
+    width: 80px;
+    padding: 20px;
+    background-color: rgb(192, 210, 30);
+}
+
+.fizz {
+    color: rgb(10, 0, 0);
+    width: 80px;
+    padding: 20px;
+    background-color: rgb(62, 5, 250);
+}
+
+.buzz {
+    color: rgb(10, 0, 0);
+    width: 80px;
+    padding: 20px;
+    background-color: rgb(30, 210, 69);
+}
 
 .fizzbuzz {
-    background: red;
+    color: aquamarine;
+    width: 100px;
+    padding: 20px;
+    background-color: chocolate;
 }

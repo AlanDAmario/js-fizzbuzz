@@ -11,11 +11,14 @@ for (let i = 1; i <= 100; ++i) {
 
     if ((i % 3 === 0) && (i % 5 === 0)) {
         x = 'fizzbuzz';
+        li.classList.add('fizzbuzz')
         // classe colore fizzbuzz
     } else if (i % 3 === 0) {
         x = 'fizz';
+        li.classList.add('fizz')
     } else if (i % 5 === 0) {
         x = 'buzz';
+        li.classList.add('buzz')
     }
     li.append(x);
     console.log(x);
